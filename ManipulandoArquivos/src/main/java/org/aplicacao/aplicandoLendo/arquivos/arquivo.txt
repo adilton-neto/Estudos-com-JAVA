@@ -1,0 +1,6 @@
+nome | cargo | salario | dataNascimento | gender | idade | cpf |
+Neto, Progrmador,20000.00,21/07/2006, M ,18, 123.456.789-10
+Neto, Progrmador,5000.00,21/07/2006, M ,18, 123.456.789-10
+laisla, Perita Criminal ,7000.00,21/07/2006, F ,18, 123.456.789-10
+laisla, Perita Criminal ,7000.00,21/07/2006, F ,18, 123.456.789-10
+laisla, Perita Criminal ,7000.00,21/07/2006, F ,18, 123.456.789-10

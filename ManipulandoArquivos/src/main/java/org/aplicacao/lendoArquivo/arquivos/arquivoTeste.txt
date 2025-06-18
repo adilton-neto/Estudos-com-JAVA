@@ -1,0 +1,14 @@
+        InputStream is; // recebe o arquivo
+        InputStreamReader isr; //le os dados do arquivo
+        BufferedReader br; // fragmenta as informaçoes, lendo por exemplo uma String caracter por carcter, ajudando no preocessamento de dados// reserva um espaço na menmoria para le essas linha de uma a uma.
+
+
+          //ler arquivo
+                String arquivo = "C:/Users/Netto/IdeaProjects/ManipulandoArquivos/src/main/java/org/aplicacao/arquivo.txt";
+              try {
+                  InputStream is = new FileInputStream(arquivo); // recebe o arquivo
+                  InputStreamReader isr = new InputStreamReader(is); //le os dados do arquivo
+                  BufferedReader br = new BufferedReader(isr);// fragmenta as informaçoes, lendo por exemplo uma String caracter por carcter, ajudando no preocessamento de dados
+              }catch (FileNotFoundException execao){
+                  System.out.println("deu ruim");
+                  System.out.println(execao.getMessage());
